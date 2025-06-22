@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title=====================================================-->
+    <title>Flower Shop using HTML, CSS, And JavaScript</title>
+    <!--==CSS=====================================================-->
+    <link rel="stylesheet" href="css/style1.css"/>
+    <!--==fav-icon=====================================================-->
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+    <!--==import-poppins-font=====================================================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--==main=====================================================-->
+    <section id="main">
+ <!--btn-->
+    <input type="checkbox" class="menu-btn" id="menu-btn"/>
+         <!--==header=====================================================-->
+   <header>
+
+    <!--**header top***********-->
+    <div class="header-top">
+       <!--menu icon-->
+       <label for="menu-btn" class ="menu-icon">
+        <span class="nav-icon"></span>
+       </label>
+    <!--location-->
+    <div class="nav-location">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="red" viewBox="0 0 16 16">
+    <path d="M8 0a5.53 5.53 0 0 0-5.5 5.5c0 4.28 5.5 10.5 5.5 10.5s5.5-6.22 5.5-10.5A5.53 5.53 0 0 0 8 0zm0 7.5a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
+  </svg>
+     Store Locate
+        </a>
+        </div>
+        <!--logo-->
+       <a href="#" class="logo" style="display: flex; align-items: center; gap: 8px;">
+  <span style="font-size: 35px; font-weight: 600; color: #000000;">Flower Shop</span>
+</a>
+
+        <!--nav-btns-->
+        <div class="nav-btns">
+            <!--search-->
+            <a href="Javascript:void(0);" class="nav-search">
+        <button style="background: none; border: none; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#555" viewBox="0 0 24 24">
+          <path d="M10 2a8 8 0 105.293 14.293l5.707 5.707 1.414-1.414-5.707-5.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+        
+  </svg>
+</button>
+   </a>
+
+   <!--user-->
+   <a href="Javascript:void(0);" class="nav-user">
+   <div class="user-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#555" viewBox="0 0 24 24">
+    <path d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 12c-4.418 0-8 2.239-8 5v1h16v-1c0-2.761-3.582-5-8-5z"/>
+  </svg>
+  </a>
+</div>
+
+<!--cart-->
+ <a href="Javascript:void(0);" class="cart"></a>
+<a href="/cart" class="cart-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#c8384d" viewBox="0 0 24 24">
+    <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 
+    0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zM7.334 14h9.982c.797 0 1.497-.471 
+    1.817-1.197l3.867-8.803a1 1 0 0 0-.917-1.424H5.21L4.27.93 2 1.001v2l1.646-.029 
+    3.494 7.948-1.26 2.877A2.004 2.004 0 0 0 7.334 14z"/>
+  </svg>
+</a>
+        </div>
+    </div>
+
+    <!--**navigation***********************************-->
+    <nav class="navigation">
+        <!--menu-->
+        <u1 class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Shop</a></li>
+           <li class="menu-item-with-label">
+        <a href="#">Popular</a>
+        <span class="nav-label">Hot Offer</span>
+          </li>
+            <li><a href="#">Recent</a></li>   
+        </u1>
+    </nav>
+   </header>
+
+    <!--==content=====================================================-->
+    <div class ="main-content">
+        <!--text-->
+     <div class ="main-content-text">
+        <strong>Collection</strong>
+        <h1>Rich<br/> Collection Of Flower</h1>
+        <p>"Love is the flower you've got to let grow," and "If you look the right way, you can see that the whole world is a garden"</p>
+            <a href="#">Shop Now </a>
+     </div>
+     <!--img-->
+    <div class="main-content-img">
+        <img src="images/image3.jpg" alt="model"/>
+    </div>
+    </div>
+    </section>
+    
+<!-- =search=============== -->
+<div class="search-bar">
+  <!-- search-input -->
+  <form class="search-input">
+    <input type="text" name="search" placeholder="Search for Product" />
+
+    <!-- cancel-btn -->
+    <button type="button" class="Search-cancel" aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </svg>
+    </button>
+  </form>
+</div>
+
+
+ <!--==login- and - signup=====================================================-->
+<div class="form login-active">
+    <!--**login*****************-->
+<div class="login-form">
+    <!--close-btn-->
+    <a href="javascript:void(0);" class="form-cancel">
+        <button class="close-btn" aria-label="Close">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
+  </svg>
+</button> 
+    </a>
+    <!--heading-->
+    <strong>Log In</strong>
+    <!--inputs-->
+    <form>
+    <input type ="email" name="email" placeholder="Example@gmail.com" required/>
+    <input type="password" name="password" placeholder="Password" required/>
+    <input  type="Submit" value="Log In"/>
+    </form>
+    <!--btns-->
+   <div class="form-btns">
+    <a href="#" class="Forget">Forget your Password</a>
+    <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+   </div>
+</div>
+    <!--**signup*****************-->
+<div class="sign-up-form">
+    <!--close-btn-->
+    <a href="javascript:void(0);" class="form-cancel">
+        <button class="close-btn" aria-label="Close">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
+  </svg>
+</button> 
+    </a>
+    <!--heading-->
+    <strong>Sign Up</strong>
+    <!--inputs-->
+    <form>
+    <input type ="text" name="fullname" placeholder="Full Name" required/>
+    <input type ="email" name="email" placeholder="Example@gmail.com" required/>
+    <input type="password" name="password" placeholder="Password" required/>
+    <input  type="Submit" value="Sign Up"/>
+    </form>
+    <!--btns-->
+   <div class="form-btns">
+    <a href="#" class="Forget">Forget your Password</a>
+    <a href="javascript:void(0);" class="already-account">Already Have An Account</a>
+   </div>
+</div>
+
+
+</div>
+
+
+<!--category===============-->
+<section id= "Category">
+
+  <!--box1-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p1.jpg" alt="Zinniar">
+   </div>
+   <!--text-->
+   <strong> Zinniar</strong>
+  </a>
+<!--box2-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p2.jpg" alt="Moss Rose">
+   </div>
+   <!--text-->
+   <strong> Moss Rose</strong>
+  </a>
+
+  <!--box3-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p3.jpg" alt="Pink Magnolia">
+   </div>
+   <!--text-->
+   <strong> Pink Magnolia</strong>
+  </a>
+
+  <!--box4-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p4.jpg" alt="Rosa">
+   </div>
+   <!--text-->
+   <strong> Rosa</strong>
+  </a>
+
+  <!--box5-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p5.jpg" alt="Pink Magnolia">
+   </div>
+   <!--text-->
+   <strong> Pink Magnolia</strong>
+  </a>
+
+  <!--box6-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p6.jpg" alt="Red Dahila">
+   </div>
+   <!--text-->
+   <strong> Red Dahila</strong>
+  </a>
+
+  <!--box7-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p7.jpg" alt="ulmeria Rubra">
+   </div>
+   <!--text-->
+   <strong> Pulmeria Rubra</strong>
+  </a>
+
+  <!--box8-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/p8.jpg" alt="Pink Dahila">
+   </div>
+   <!--text-->
+   <strong> Pink Dahila</strong>
+  </a>
+
+  <!--box9-->
+  <a href="#" class="category-box">
+   <!--img-->
+   <div class="category-box-img">
+    <img src="images/Untitled.jpg" alt="Rose">
+   </div>
+   <!--text-->
+   <strong> Rose</strong>
+  </a>
+  </section>
+
+<!--Popular===============-->
+<section id="Popular">
+  <!--heading-->
+<h2> Popular Flower</h2>
+
+ <!--container-->
+<div class="popular-dress-container">
+
+  <!-- product container
+  <div class="popular-product-container"></div> -->
+
+<!--box1-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f6.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Orange Lily</a>
+    <span>Rs 70<del> Rs 120</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+
+
+<!--box2-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f5.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Paper flowers</a>
+    <span>Rs 110<del> Rs 200</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+</div>
+
+
+  <!--box3-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f4.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Red Rose</a>
+    <span>Rs 100<del> Rs 120</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+
+  <!--box4-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f2.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Red Rose</a>
+    <span>Rs 100<del> Rs 120</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+
+  <!--box5-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f10.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Geranium</a>
+    <span>Rs 90<del> Rs 120</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+</div>
+</div>
+<!--box6-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f8.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Peruvian Lily</a>
+    <span>Rs 100<del> Rs 120</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+</div>
+</div>
+
+<!--box7-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/f9.jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Dendrobium aphyllum</a>
+    <span>Rs 75<del> Rs 100</del></span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+</div>
+</div>
+
+
+<!--banner-->
+<div class="popular-banner">
+<!--text-->
+<div class="popular-banner-text">
+<!--img-->
+<div class="popular-banner-text">
+<h3> Summer Flower Collection</h3>
+<a href="#">Shop Now</a>
+</div>
+<!--img-->
+<div class="popular-banner-img">
+  <img src="images/banner4.jpg" alt="Banner">
+</div>
+</div>
+</div>
+
+</section>
+
+<!--shopping-banner--===============-->
+<section id="shopping-banner">
+  <div class="shopping-banner-container">
+    <!--text-->
+    <div class="shopping-banner-text">
+    <strong>Collection</strong>
+  
+  <h3>Beautiful Flower Pot</h3>
+  <p> Flowers whisper what words cannot say</p>
+<a href="#"> Shop Now</a>
+  </div>
+  <!--img-->
+  <div class="shopping-banner-img">
+  <img src="images/f11.jpeg" alt="banner"/>
+  </div>
+  </div>
+</section>
+
+<!--recent add--===============-->
+<section id="recent-products">
+<!--**heading-->
+<h2>Recent Flowers</h2>
+<!--**container-->
+<div class="recent-product-container">
+<!--box1-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/s1 (1).jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Surfinia</a>
+    <span>Rs 100</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box2-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/s1 (10).jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Surfinia</a>
+    <span>Rs 100</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box3-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/s1 (11).jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Impatients</a>
+    <span>Rs 60</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box4-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/s1 (12).jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Jungle Geranium</a>
+    <span>Rs 90</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box5-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/s1 (14).jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Vine</a>
+    <span>Rs 110</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+  <!--box6-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/s1 (15).jpeg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Moss Rose</a>
+    <span>Rs 50</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+</div>
+</section>
+
+
+<!--plants--===============-->
+<section id="recent-products">
+<!--**heading-->
+<h2>Indoor Plants Collection</h2>
+<!--**container-->
+<div class="recent-product-container">
+<!--box1-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c1.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Banana Plant</a>
+    <span>Rs 250</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box2-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c2.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Swiss Cheese Plant</a>
+    <span>Rs 200</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box3-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c3.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Anthurium hookeri</a>
+    <span>Rs 300</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box4-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c4.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Prayer Plant</a>
+    <span>Rs 200</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+<!--box5-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c5.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Botaniful Aglaonema</a>
+    <span>Rs 150</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+  <!--box6-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c7.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Anthurium Hookeri</a>
+    <span>Rs 300</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+  <!--box7-->
+<div class="Product-box"> 
+  <!-- <img> -->
+   <a href="#" class="product-box-img">
+    <img src="images/c6.jpg" alt="product">
+    <span>New</span>
+   </a>
+ <!-- text -->
+  <div class="product-box-text">
+    <a href="#" class="product-text-title">Banana Plant</a>
+    <span>Rs 150</span>
+    <a href="#" class="product-cart-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" 
+     width="24" height="24" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <circle cx="10" cy="20" r="1.5"/>
+  <circle cx="18" cy="20" r="1.5"/>
+  <path d="M1 1h3l3.2 11h11.3a1 1 0 0 0 .96-.73l2.5-8.27H6"/>
+  <path d="M6 6h16"/>
+</svg>
+      Add To Cart
+    </a>
+  </div>
+  </div>
+</div>
+</section>
+
+<!--Services--===============-->
+<section class="Services">
+  <!--services box-->
+  <div class="service-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M2 9h5v2H2V9zm0 4h3v2H2v-2zm0 4h1v2H2v-2zM9 4h11a1 1 0 0 1 1 1v5h-3a1 1 0 0 0-1 1v2H9V4z"/>
+  <path d="M17 10h3l3 3v4a1 1 0 0 1-1 1h-1a3 3 0 1 1-6 0h-4a3 3 0 1 1-6 0H4a1 1 0 0 1-1-1v-3h14v-4z"/>
+  <circle cx="7" cy="18" r="2"/>
+  <circle cx="17" cy="18" r="2"/> 
+</svg>
+
+ <span>Free Shipping </span>
+ <p> Free shipping for all orders</p>
+
+  </div>
+    <!--ssupport box-->
+  <div class="service-box">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12v6a2 2 0 0 0 2 2h2v-8H4v-1c0-4.42 3.58-8 8-8s8 3.58 8 8v1h-2v8h2a2 2 0 0 0 2-2v-6c0-5.52-4.48-10-10-10z"/>
+</svg>
+
+
+ <span>SUpport 24/7 </span>
+ <p> We Support for all orders</p>
+
+  </div>
+    <!--money back-->
+  <div class="service-box">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+  class="feather feather-refresh-cw">
+  <polyline points="23 4 23 10 17 10"/>
+  <polyline points="1 20 1 14 7 14"/>
+  <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+</svg>
+
+
+ <span>100% Money Back</span>
+ <p>You have 30 days to return </p>
+
+  </div>
+</section>
+
+<!--footer--===============-->
+<footer>
+  <div class="footer-container">
+    <!--***Company-box-->
+    <div class="footer-container-box">
+      <!--logo-->
+      <a href="#" class="Footer-logo">
+
+        <img src="images/l1.png" alt="logo"/>
+      </a>
+  <!--details-->
+  <p> Sunshine and flowers, my happy place</p>
+  <!--social-->
+  <div class="footer-social">
+      <!--facebook-->
+     <a href="#">
+     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1877F2">
+  <path d="M22.675 0h-21.35C.596 0 0 .593 0 1.326v21.348C0 23.407.596 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.325-.593 1.325-1.326V1.326C24 .593 23.405 0 22.675 0z"/>
+</svg>
+</a> 
+<!--instagram-->
+     <a href="#">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#E1306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+  <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+</svg>
+
+</a>
+<!--youtube-->
+<a href="#">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#FF0000">
+  <path d="M23.498 6.186a2.974 2.974 0 0 0-2.092-2.101C19.842 3.5 12 3.5 12 3.5s-7.842 0-9.406.585a2.974 2.974 0 0 0-2.092 2.101A30.184 30.184 0 0 0 0 12a30.184 30.184 0 0 0 .502 5.814 2.974 2.974 0 0 0 2.092 2.101C4.158 20.5 12 20.5 12 20.5s7.842 0 9.406-.585a2.974 2.974 0 0 0 2.092-2.101A30.184 30.184 0 0 0 24 12a30.184 30.184 0 0 0-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+</svg>
+</a>
+<!--twitter-->
+<a href="#">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2">
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.4.36a9.32 9.32 0 0 1-2.88 1.1A4.52 4.52 0 0 0 16.11 0c-2.5 0-4.51 2.05-4.51 4.57 0 .36.04.71.12 1.05C7.72 5.5 4.1 3.64 1.67.76a4.54 4.54 0 0 0-.61 2.29c0 1.58.79 2.97 1.99 3.78A4.49 4.49 0 0 1 .96 6v.06c0 2.2 1.55 4.03 3.61 4.45a4.52 4.52 0 0 1-2.04.08 4.53 4.53 0 0 0 4.23 3.15A9.05 9.05 0 0 1 0 19.54 12.8 12.8 0 0 0 6.95 21c8.38 0 12.96-7.07 12.96-13.2 0-.2 0-.41-.02-.61A9.44 9.44 0 0 0 23 3z"/>
+</svg>
+</a>
+  </div>
+    </div>
+<!--***link-->
+<div class="footer-link-box">
+  <strong> Main Link</strong>
+  <ul>
+    <li><a  href="#"> Home</a></li>
+     <li><a  href="#"> Category</a></li>
+      <li><a  href="#"> Shop</a></li>
+       <li><a  href="#"> Popular</a></li>
+        <li><a  href="#"> Recent</a></li>
+  </ul>
+</div>
+<!--***link-->
+
+<div class="footer-link-box">
+  <strong> Social Link's</strong>
+  <ul>
+    <li><a  href="#"> Faceebook</a></li>
+     <li><a  href="#"> Instagram</a></li>
+      <li><a  href="#"> Youtube</a></li>
+       <li><a  href="#"> Twitter</a></li>
+       
+  </ul>
+</div>
+
+<!--Suscribe-->
+<div class="footer-suscribe">
+  <strong>Suscribe Now</strong>
+<p>Sunshine and flowers, my happy place</p>
+<div class="suscribe-box">
+  <input type="email" placeholder="Example@gmail.com" name="Suscribe" required/>
+  <button type="submit">Subscribe</button>
+</div>
+</div>
+
+  </div>
+
+
+
+  <!--bottom-->
+  <div class="footer-bottom">
+    <span>Made By Asmita</span>
+     <span>© Copyright 2025 - Going-To-Internet</span>
+  </div>
+</footer>
+
+  <!--==script=====================================================-->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // For search bar toggle
+  document.addEventListener('click', function (event) {
+    const searchBar = document.querySelector('.search-bar');
+
+    if (event.target.closest('.nav-search')) {
+      searchBar.classList.add('active'); // Use a separate class for visibility
+    } else if (event.target.closest('.close-btn')) {
+      searchBar.classList.remove('active');
+    }
+  });
+
+  // For login/signup modal
+  document.addEventListener('click', function (event) {
+    const formElement = document.querySelector('.form');
+
+    if (event.target.closest('.nav-user, .already-account')) {
+      formElement.classList.add('login-active');
+      formElement.classList.remove('sign-up-active');
+    }
+
+    if (event.target.closest('.sign-up-btn')) {
+      formElement.classList.add('sign-up-active');
+      formElement.classList.remove('login-active');
+    }
+
+    if (event.target.closest('.form-cancel')) {
+      formElement.classList.remove('login-active', 'sign-up-active');
+    }
+  });
+
+  // Sticky header on scroll
+  const header = document.querySelector('header');
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener('scroll', function () {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY === 0) {
+      header.classList.remove('header-fix');
+    } else if (currentScrollY < lastScrollY) {
+      header.classList.add('header-fix');
+    } else {
+      header.classList.remove('header-fix');
+    }
+
+    lastScrollY = currentScrollY;
+  });
+});
+</script>
+</body>
+</html>
